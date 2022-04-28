@@ -132,3 +132,61 @@ body {
     text-align: end;
     font-weight: bolder;
 }
+
+
+.signup {
+    background-color: #3882F6;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 2%;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    color: white;
+}
+.signup .left_signup {
+    margin-left: 15px;
+}
+
+.signup .right_signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.signup h4 {
+    margin-bottom: 0px;
+}
+
+.signup p {
+    margin-top: 0;
+}
+
+.signup button {
+    background-color: #3882F6;
+    border: solid white;
+    color: white;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 15px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
